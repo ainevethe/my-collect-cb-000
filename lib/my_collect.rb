@@ -1,10 +1,10 @@
 
 
-def my_collect(empty_array)
+def my_collect(array)
 
   collection = []
 
-  collect(empty_array) do |name|
+  collect(array) do |name|
     collection << name
   end
 
