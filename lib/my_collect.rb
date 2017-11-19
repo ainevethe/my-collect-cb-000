@@ -1,7 +1,19 @@
 
-def collect
+def collect(collection)
+  i = 0
 
-  my_collect(array) do |name|
-  name.split(" ").first
+  while i < collection.length
+    yield(collection[i])
+    i += 1
+  end
+
+end
+
+
+
+    i = 0
+  while i < array.length
+    yield(array[i])
+    i += 1
   end
 end
