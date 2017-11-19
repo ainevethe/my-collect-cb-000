@@ -8,4 +8,3 @@ def collect(collection)
   end
 
 end
-
