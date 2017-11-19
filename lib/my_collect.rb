@@ -2,9 +2,9 @@
 
 def my_collect(empty_array)
 
-collection = []
+  collection = []
 
-  collect(array) do |name|
+  collect(empty_array) do |name|
     collection << name
   end
 
