@@ -7,5 +7,5 @@ def my_collect(collection)
     newcollect << yield(collection[i])
     i += 1
   end
-
+  newcollect
 end
