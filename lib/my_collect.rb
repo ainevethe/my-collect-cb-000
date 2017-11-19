@@ -1,11 +1,5 @@
 
 
-def my_collect(array)
-
-  collection = []
-
-  collect(array) do |name|
-    collection << name
-  end
-
+my_collect(array) do |name|
+  name.split(" ").first
 end
